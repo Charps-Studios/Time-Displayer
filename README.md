@@ -1,2 +1,3 @@
 # How to use
 In order to be able to use this application you must have python, and have installed tkinter. If you have not installed tkinter you can do this by simply inputting `pip install tkinter` into cmd. Use the 'Time Displayer' shortcut to run the program if you are on Windows. If not you can just run the python file, preferably pythonw.exe and not python.exe.
+![alt text](https://lh6.googleusercontent.com/JJFCh-S2Zn115itiQJoTfco6OmorLhJi4Fr171iyXyOUA2w2TiYAacqUEIa5GS06l09rqzNltsjYB6A20XSC=w2734-h1622 "What it looks like")
