@@ -12,7 +12,7 @@ root = Tk()
 
 root.title("Time")
 root.overrideredirect(True)
-root.geometry("40x35+{w}+{h}".format(w = -1, h =root.winfo_screenheight() - 35))
+root.geometry("50x35+{w}+{h}".format(w = -1, h =root.winfo_screenheight() - 35))
 root.configure(bg='black')
 
 w, h = 50, 50
