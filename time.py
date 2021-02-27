@@ -8,17 +8,14 @@ def time_loop_func():
         w['text'] = time.strftime("%I:%M", time.localtime())
         time.sleep(1)
 
+w, h = 60, 35
+
 root = Tk()
 
 root.title("Time")
 root.overrideredirect(True)
-root.geometry("50x35+{w}+{h}".format(w = -1, h =root.winfo_screenheight() - 35))
+root.geometry("{w}x{h}+{x}+{y}".format(w = w, h = h, x = -1, y = root.winfo_screenheight() - h))
 root.configure(bg='black')
-
-w, h = 50, 50
-
-canvas = Canvas(root, width=0, height=0, highlightthickness=0)
-canvas.pack(fill='both')
 
 #Text for time
 w = Button(root, text="N/A", command=root.destroy, bd=0, bg="black", fg="white")
@@ -32,3 +29,5 @@ time_loop = threading.Thread(target=time_loop_func)
 time_loop.start()
 
 root.mainloop()
+
+time_loop.join()
