@@ -80,11 +80,11 @@ b.bind("<Button-3>", openMenu)
 
 #Right click menu
 sides_menu = Menu(root, tearoff=0)
-sides_menu.add_command(label="Set Bottom", command= lambda: setSide(-1, 1))
-sides_menu.add_command(label="Set Top", command= lambda: setSide(-1, 0))
+sides_menu.add_command(label="Top Left", command= lambda: setSide(0, 0))
+sides_menu.add_command(label="Top Right", command= lambda: setSide(1, 0))
 sides_menu.add_separator()
-sides_menu.add_command(label="Set Left", command= lambda: setSide(0, -1))
-sides_menu.add_command(label="Set Right", command= lambda: setSide(1, -1))
+sides_menu.add_command(label="Bottom Left", command= lambda: setSide(0, 1))
+sides_menu.add_command(label="Bottom Right", command= lambda: setSide(1, 1))
 
 main_menu = Menu(root, tearoff=0)
 main_menu.add_cascade(label="Set Side...", menu=sides_menu)
