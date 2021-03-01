@@ -8,3 +8,8 @@ To close the widget, you can simply left click it, or right click it and then cl
 # Changing corner
 ![Menu display](https://drive.google.com/uc?export=view&id=1qCwHLjUW5qR3ApvQntTa8VIn3QvDWGCO "Right click menus") <br/>
 You can change the corner at which the widget stays by right clicking the widget, hovering over 'Set Side...', and clicking the position you want it to be in. This position will be saved for the next time you open the widget.
+
+# Set up as app (Windows only)
+If you are on windows, you can set up this python file as an application by creating a folder in `C:\Users\{INSERT YOUR USER}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs` called 'Time Displayer', and copy [the short cut in the repo]("Time Displayer.lnk") into that folder. 
+<br/><br/>
+Now you can click the `Windows` buttton and type in 'Time Displayer' and it will come up!
