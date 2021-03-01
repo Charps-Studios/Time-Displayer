@@ -19,7 +19,7 @@ root.configure(bg='black')
 
 #Text for time
 w = Button(root, text="N/A", command=root.destroy, bd=0, bg="black", fg="white")
-w['font'] = font.Font(family='Segoe UI Light')
+w['font'] = font.Font(family='Segoe UI Light', size=15)
 w.pack()
 
 root.attributes('-topmost', True)
