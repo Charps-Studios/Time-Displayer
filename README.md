@@ -13,3 +13,6 @@ You can change the corner at which the widget stays by right clicking the widget
 If you are on windows, you can set up this python file as an application by creating a folder in `C:\Users\{INSERT YOUR USER}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs` called 'Time Displayer', and copy [the short cut in the repo]("Time Displayer.lnk") into that folder. 
 <br/><br/>
 Now you can click the `Windows` buttton and type in 'Time Displayer' and it will come up!
+
+<br/><br/>
+![What it looks like in use](https://drive.google.com/uc?export=view&id=1rPMyzLP-CYFc9i8HKjbjl31gmcwH_trE "What it looks like in use")
